@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :carts
+
   get 'store/index'
   get 'say/hello'
   get 'say/goodbye'
